@@ -43,6 +43,8 @@ for each_cluster in db_clusters['DBClusters']:
 ########
 #comment section out in regions where RDS clusters are not yet supported -^-
 
-
+return {
+	'message' : 'complete'
+}
 
 
